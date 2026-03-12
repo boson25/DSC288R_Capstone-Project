@@ -42,18 +42,18 @@ Therefore, the datasets must be downloaded manually from Kaggle.
 
 To reproduce our results:
 
-Download the datasets (see Data Access section).
-Run `steam_ingestion.ipynb` to ingest and merge the datasets.
-Run the **EDA notebooks** to reproduce exploratory analysis.
-Run the **Recommendation Prediction notebooks**.
-Run the **Helpfulness Prediction notebooks**.
-Run `Review_text_features_BERT_training.ipynb` to train and evaluate recommender models.
+1. Download the datasets (see Data Access section).
+2. Run `steam_ingestion.ipynb` to ingest and merge the datasets.
+3. Run the **EDA notebooks** to reproduce exploratory analysis.
+4. Run the **Recommendation Prediction notebooks**.
+5. Run the **Helpfulness Prediction notebooks**.
+6. Run `Review_text_features_BERT_training.ipynb` to train and evaluate recommender models.
 
-##Data access
+## Data access
 To reproduce this project:
 
-Clone this repo
-Download the datasets from Kaggle:
+1. Clone this repo
+2. Download the datasets from Kaggle:
 
 Steam Reviews Dataset
 https://www.kaggle.com/datasets/kieranpoc/steam-reviews
@@ -61,10 +61,11 @@ https://www.kaggle.com/datasets/kieranpoc/steam-reviews
 Steam Games Metadata
 https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
 
-Extract the datasets
-Move the files:
-All_reviews.csv -> data/raw/
-Games.csv -> data/raw/
+3. Extract the datasets
+4. Move the files:
+5. all_reviews.csv -> data/raw/
+6. games.csv -> data/raw/
 
-Run the steam_ingestion.ipynb notebook sequentially.
+7. Run the steam_ingestion.ipynb notebook sequentially. (This might take a while, we are creating parquets and merging them)
+
 This will populate our processed and merged dataset into the final data folder. 
