@@ -69,3 +69,10 @@ https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
 7. Run the steam_ingestion.ipynb notebook sequentially. (This might take a while, we are creating parquets and merging them)
 
 This will populate our processed and merged dataset into the final data folder. 
+
+##Initial EDA
+To reproduce our results you will run the Data Quality and EDA notebook sequentially which will recreate our initial inspection of the dataset and the visualizations we used for exploratory analysis.  
+
+##Recommendation Prediction models
+1. Run target1_paige.ipynb sequentially for the baseline recommendation predictions
+2. Run advanced_modeling_paige.ipynb sequentially for the advanced model recommendation predictions
