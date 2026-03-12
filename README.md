@@ -84,3 +84,10 @@ The experiments evaluate several regression models using both structured metadat
 Running this notebook reproduces the experiments and results reported in the Helpfulness Prediction section of the final report.
 
 1. Run review helpfulness.ipynb sequentially to recreate our results. 
+
+## Recommender Models: 
+1. Run clean_cf_als.ipynb to see experimentation and hyperparameter tuning on the ALS and ALS BM25 models. 
+2. Run review_text_features_BERT training.ipynb to see BERT training as well as comparison to ALS and ALS BM25 from the same sample (this is what was used in the report and visualizations)
+3. Run diversity_analysis_based on popular_sentiment.ipynb to see visualizations on the diversity of our recommender models
+
+The experimentation that brought me to the final model for ALS and ALS with BM25 weighting is contained within the Clean CF ALS notebook. This experimentation was done on different samples from our final results and comparison which were completed within the models folder in the review_text_features_BERT training notebook. This is where the final analysis was done on the recommender models comparing ALS, ALS with BM25 weighting alongside the different models that implemented BERT embeddings in the recommendations. If you run through these notebooks you should be able to obtain the same results that we did throughout the course of our project. 
