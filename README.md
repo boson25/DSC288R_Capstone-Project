@@ -9,11 +9,15 @@ User reviews on platforms such as Steam serve as essential indicators for game d
 DSC288R_Capstone-Project/
 │
 ├── data/
-│ ├── raw/ -> Pipeline to ingest the kaggle datasets
+│ ├── raw/ -> Initial raw CSV storage
+| | └── (populated from the Kaggle downloads)
 │ ├── intermediate/ -> Intermediate parquet storage
+| | └── (populated from data ingest notebook)
 │ └── final/ -> Final dataset storage
+| | └── (populated from data ingest notebook)
 │
 ├── models/
+| └── (populated when notebooks are run)
 │ ├── Diversity_Analysis_based_on_popularity_Sentiment.ipynb
 │ ├── Review_text_features_BERT_training.ipynb
 │ ├── advanced_modeling_paige.ipynb
