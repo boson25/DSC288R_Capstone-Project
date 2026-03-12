@@ -31,6 +31,7 @@ DSC288R_Capstone-Project/
 │ ├── genre_sentiment_comparison.png
 │ └── performance_diversity_tradeoff.png
 │
+└── requirements.txt
 └── README.md
 ```
 
