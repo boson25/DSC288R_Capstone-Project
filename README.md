@@ -9,9 +9,9 @@ User reviews on platforms such as Steam serve as essential indicators for game d
 DSC288R_Capstone-Project/
 │
 ├── data/
-│ ├── raw/ # Raw dataset ingestion
-│ ├── intermediate/ # Intermediate parquet files
-│ └── final/ # Final merged dataset
+│ ├── raw/ -> Pipeline to ingest the kaggle datasets
+│ ├── intermediate/ -> Intermediate parquet storage
+│ └── final/ -> Final dataset storage
 │
 ├── models/
 │ ├── Diversity_Analysis_based_on_popularity_Sentiment.ipynb
@@ -20,8 +20,8 @@ DSC288R_Capstone-Project/
 │ └── target1_paige.ipynb
 │
 ├── notebooks/
-│ ├── Clean_CF_ALS_Notebook.ipynb
-│ ├── Data_quality_EDA.ipynb
+│ ├── Clean_CF_ALS_Notebook.ipynb -> Alternating least squares experimentation and hypertuning
+│ ├── Data_quality_EDA.ipynb -> Initial exploration of the dataset
 │ ├── Diversity_Analysis_based_on_popularity_ver1.ipynb
 │ ├── EDA_paige.ipynb
 │ └── Review_helpfulness.ipynb
@@ -48,3 +48,23 @@ Run the **EDA notebooks** to reproduce exploratory analysis.
 Run the **Recommendation Prediction notebooks**.
 Run the **Helpfulness Prediction notebooks**.
 Run `Review_text_features_BERT_training.ipynb` to train and evaluate recommender models.
+
+##Data access
+To reproduce this project:
+
+Clone this repo
+Download the datasets from Kaggle:
+
+Steam Reviews Dataset
+https://www.kaggle.com/datasets/kieranpoc/steam-reviews
+
+Steam Games Metadata
+https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
+
+Extract the datasets
+Move the files:
+All_reviews.csv -> data/raw/
+Games.csv -> data/raw/
+
+Run the steam_ingestion.ipynb notebook sequentially.
+This will populate our processed and merged dataset into the final data folder. 
