@@ -16,7 +16,7 @@ DSC288R_Capstone-Project/
 │ └── final/ -> Final dataset storage
 | | └── (populated from data ingest notebook)
 │
-├── models/
+├── models/ -> Container for recommender pkl files
 | └── (populated when notebooks are run)
 │
 ├── notebooks/
