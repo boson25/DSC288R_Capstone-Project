@@ -15,3 +15,5 @@ sentence-transformers==5.2.3
 datasets==3.1.0
 statsmodels
 vaderSentiment==3.3.2
+xgboost
+threadpoolctl
