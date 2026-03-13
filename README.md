@@ -47,11 +47,12 @@ Therefore, the datasets must be downloaded manually from Kaggle.
 To reproduce our results:
 
 1. Download the datasets (see Data Access section).
-2. Run `steam_ingestion.ipynb` to ingest and merge the datasets.
-3. Run the **EDA notebooks** to reproduce exploratory analysis.
-4. Run the **Recommendation Prediction notebooks**.
-5. Run the **Helpfulness Prediction notebooks**.
-6. Run `Review_text_features_BERT_training.ipynb` to train and evaluate recommender models.
+2. Create a new environment and run pip install -r requirements.txt
+3. Run `steam_ingestion.ipynb` to ingest and merge the datasets.
+4. Run the **EDA notebooks** to reproduce exploratory analysis.
+5. Run the **Recommendation Prediction notebooks**.
+6. Run the **Helpfulness Prediction notebooks**.
+7. Run `Review_text_features_BERT_training.ipynb` to train and evaluate recommender models.
 
 ## Data access
 To reproduce this project:
