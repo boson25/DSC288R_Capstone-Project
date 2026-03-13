@@ -18,17 +18,16 @@ DSC288R_Capstone-Project/
 │
 ├── models/
 | └── (populated when notebooks are run)
-│ ├── Diversity_Analysis_based_on_popularity_Sentiment.ipynb
-│ ├── Review_text_features_BERT_training.ipynb
-│ ├── advanced_modeling_paige.ipynb
-│ └── target1_paige.ipynb
 │
 ├── notebooks/
 │ ├── Clean_CF_ALS_Notebook.ipynb -> Alternating least squares experimentation and hypertuning
 │ ├── Data_quality_EDA.ipynb -> Initial exploration of the dataset
-│ ├── Diversity_Analysis_based_on_popularity_ver1.ipynb
+│ ├── Diversity_Analysis_based_on_popularity_Sentiment.ipynb
 │ ├── EDA_paige.ipynb
 │ └── Review_helpfulness.ipynb
+│ ├── advanced_modeling_paige.ipynb
+│ └── target1_paige.ipynb
+│ ├── Review_text_features_BERT_training.ipynb
 │
 ├── visualizations/
 │ ├── bert_complete_analysis.png
