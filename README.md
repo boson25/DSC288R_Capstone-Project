@@ -23,11 +23,11 @@ DSC288R_Capstone-Project/
 │ ├── Clean_CF_ALS_Notebook.ipynb -> Alternating least squares experimentation and hypertuning
 │ ├── Data_quality_EDA.ipynb -> Initial exploration of the dataset
 │ ├── Diversity_Analysis_based_on_popularity_Sentiment.ipynb
-│ ├── EDA_paige.ipynb
-│ └── Review_helpfulness.ipynb
-│ ├── advanced_modeling_paige.ipynb
-│ └── target1_paige.ipynb
-│ ├── Review_text_features_BERT_training.ipynb
+│ ├── EDA_paige.ipynb -> EDA on the raw data
+│ └── Review_helpfulness.ipynb -> Review helpfulness prediction notebook
+│ ├── advanced_modeling_paige.ipynb -> Advanced recommendation prediction models
+│ └── target1_paige.ipynb -> Baseline recommendation prediction models
+│ ├── Review_text_features_BERT_training.ipynb -> Training the BERT models and getting text features
 │
 ├── visualizations/
 │ ├── bert_complete_analysis.png
