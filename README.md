@@ -34,6 +34,7 @@ DSC288R_Capstone-Project/
 │ ├── genre_sentiment_comparison.png
 │ └── performance_diversity_tradeoff.png
 │
+└── steam_ingestion.ipynb -> Process and merge data once it is put into the data folder
 └── requirements.txt
 └── README.md
 ```
